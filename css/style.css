@@ -1,0 +1,355 @@
+button {
+    padding: 10px;
+    background-color: black;
+    float: right;
+}
+
+#logo {
+    margin: 0px;
+    padding: 0px;
+}
+
+#crown {
+    background-image: url(../images/crown.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1150px;
+}
+
+#intro {
+    margin-top: 140px;
+    font-family: 'MedievalSharp', cursive;
+    background-color: rgba(255, 168, 66, .2);
+    text-align: center;
+}
+
+.display-1{
+    color: red;
+    text-shadow: 3px 2px 2px #000000;
+}
+
+.display-2{
+    text-shadow :3px 2px 2px #000000;
+}
+
+#menu {
+    font-size: 60px;
+}
+
+.carousel-item {
+    margin-top: 15px;
+}
+.carousel-indicators {
+    margin-bottom: 1px;
+}
+
+.dropdown-item{
+    background: black;
+    color: red;
+}
+
+#valyria {
+    background-image: url(../images/valyria.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1000px;
+}
+
+.old-v{
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    color: rgb(255, 168, 66);
+    font-size: 60px;
+    text-shadow :3px 2px 2px #000000;
+}
+
+#aegon {
+    margin-top: 100px;
+    vertical-align: top;
+    display: inline-block;
+    opacity: .9;
+    /*this picture was borrowed from pinterest*/
+}
+
+.valyr{
+    display:block;
+    font-family: 'MedievalSharp', cursive;
+    color: rgb(255, 168, 66);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow :3px 2px 2px #000000;
+}
+
+.img-fluid {
+    max-width: 52%;
+    height: auto;
+}
+
+.story-time{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Medula One', cursive;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: rgba(255, 168, 66, .2);
+    text-shadow :3px 2px 2px #000000;
+}
+
+.doom {
+    color: red;
+}
+
+.quest {
+    color: rgb(255, 168, 66);
+}
+
+#destroy {
+    background-image: url(../images/fire.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1000px;
+}
+
+#table {
+    background-image: url(../images/table.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1200px;
+}
+
+#queen {
+    margin-top: 100px;
+}
+
+#visenya {
+    vertical-align: top;
+    display: inline-block;
+    opacity: .9;
+}
+
+#rhaenys {
+    vertical-align: top;
+    display: inline-block;
+     opacity: .9;
+}
+
+#aegon-2 {
+    vertical-align: top;
+    display: inline-block;
+    opacity: .9;
+}
+
+#war{
+    background-image: url(../images/dragon.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1300px;
+}
+
+#west {
+    background-image: url(../images/ceiling.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1200px;
+}
+
+.houses {
+    font-family: 'Medula One', cursive;
+    font-size: 22px;
+    color: #FFFFFF;
+    background-color: rgba(255, 168, 66, .2);
+    text-shadow :3px 2px 2px #000000;
+}
+
+#religion {
+    background-image: url(../images/mosaic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1100px;
+}
+
+#strange {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#str {
+    text-align: center;
+}
+
+#sword {
+    background-image: url(../images/sword.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1100px;
+}
+
+#metal {
+    background-image: url(../images/metal.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1100px;
+}
+
+#dagger {
+    margin-top: 100px;
+    border: 5px ridge darkgreen;
+}
+
+#sword2 {
+    margin-top: 100px;
+    border: 5px ridge darkblue;
+}
+
+#throne {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    border: 5px ridge darkblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+#footer{
+    position: absolute;
+    height: 138px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.col-sm-4 li a:hover{
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    margin-right: 8px;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 575px) {
+   .display-1, .display-2{
+       font-size: 58px;
+   }
+   button{
+       font-size: 55px;
+   }
+   #logo{
+       width: 55px;
+   }
+   #menu {
+       font-size: 40px;
+   }
+    #valyria {
+        height: 1500px;
+    }
+    #destroy {
+        height: 1200px;
+    }
+    #table {
+        height: 2000px;
+    }
+    #visenya, #aegon-2, #rhaenys{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #west {
+        height: 3125px; 
+    }
+    #war {
+        height: 4000px;
+    }
+    #religion {
+        height: 3400px;
+    }
+    #metal {
+        height: 1300px;
+    }
+    #sword {
+        height: 1700px;
+    }
+    #dagger, #sword2, #mom{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #belief{
+        text-align: center;
+    }
+    
+    #footer{
+        height: 180px;
+    }
+    
+    #footer ul li a {
+       float: left;
+       font-size: 10px;
+    }
+    #copy{
+        font-size: 18px;
+    }
+}
+    iframe{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+    }
+
+@media (min-width: 768px) {
+    #war{
+        height: 2000px;
+    }
+    #sword{
+        height: 1800px;
+    }
+    button {
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+#west, #crown, #metal, #religion, #destroy, #valyria, #table{
+        height: 1400px;
+    }
+}
