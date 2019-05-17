@@ -329,7 +329,11 @@ iframe{
     #copy{
         font-size: 18px;
     }
+
+#west, #crown, #metal, #religion, #destroy, #valyria, #table, #war, #sword{
+    background-attachment: inherit;
 }
+
     iframe{
         margin-left: auto;
         margin-right: auto;
